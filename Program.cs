@@ -8,13 +8,13 @@ namespace Static_DeBord_Joshua
         {
             //Integers
             Console.WriteLine("integer Methods");
-            Console.WriteLine(Calculate.Add(15, 88));
+            Console.WriteLine("15 + 88 is " + Calculate.Add(15, 88));
             Console.WriteLine(Calculate.Sub(78, 88));
             Console.WriteLine(Calculate.Mult(8, 9));
             Console.WriteLine(Calculate.Div(77, 8));
 
             //floats
-            Console.WriteLine("\n\n\n\nFloat Methods");
+            Console.WriteLine("\n\nFloat Methods");
             Console.WriteLine(Calculate.Add(15.55f, 88.65f));
             Console.WriteLine(Calculate.Sub(78.45f, 88.89f));
             Console.WriteLine(Calculate.Mult(8.99f, 9.65f));
